@@ -6,10 +6,10 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class EvenArray {
     public void evenArray() {
-        var n = ThreadLocalRandom.current().nextInt(1,51);
+        var n = ThreadLocalRandom.current().nextInt(1,101);
         int[] randArray = new int[n];
         for (int i = 0; i < n; i++) {
-            randArray[i] = ThreadLocalRandom.current().nextInt(1,11);
+            randArray[i] = ThreadLocalRandom.current().nextInt(1,21);
         }
         Arrays.sort(randArray);
         System.out.println("Массив случайной длины, заполненный случайными числами: ");
