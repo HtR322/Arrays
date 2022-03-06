@@ -12,7 +12,7 @@ public class EvenArray {
             randArray[i] = ThreadLocalRandom.current().nextInt(1,21);
         }
         Arrays.sort(randArray);
-        System.out.println("Массив случайной длины, заполненный случайными числами: ");
+        System.out.println("Отсортированный массив случайной длины, заполненный случайными числами: ");
         for (int i = 0; i < n; i++) {
             System.out.print(randArray[i] +  " ");
         }
